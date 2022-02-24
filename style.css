@@ -1,9 +1,12 @@
+
+/******************************Header Section Start********************/
 header{
     color: #fff;
     height: 112px;
-    
-   
     line-height: 112px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 header a.logo{
     float: left;
@@ -30,23 +33,21 @@ header nav ul li a:hover, header nav ul li a:focus{
     text-decoration: none;
 }
 
-/********* Slider Section ************/
+/******************************Header Section End********************/
+
+/******************************Slider Section Start********************/
 
 #owl-demo,#owl-demo div{
-    
     width: 100%;
     text-align: center;
     height: 600px;
     color:#fff;
-   
-}
+   }
 #owl-demo div h1.slider-heading{
     margin-bottom: 30px;
     margin-top: 150px;
     color: #fff;
-    
-    
-}
+    }
 #owl-demo div p{
     margin-bottom: 30px;
 }
@@ -78,3 +79,21 @@ border-radius: 5px;
     position: fixed;
 }
 
+/******************************Slider Section End********************/
+
+/******************************Services Section Start********************/
+
+.services{
+    text-align: center;
+}
+.services .services-content i{
+    font-size: 32px;
+    color: #555;
+}
+.services-header{
+    margin-bottom: 42px;
+}
+
+/******************************Services Section End********************/
+
+/******************************Portfolio Section Start********************/

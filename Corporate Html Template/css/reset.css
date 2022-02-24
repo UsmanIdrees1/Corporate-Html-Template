@@ -49,11 +49,12 @@ a:hover{
 }
 ul{
     list-style: none;
-    margin-left: 235px;
+    margin-left: 300px;
     display: flex;
-    
-}
+    }
 ul li{
     display: inline;
-    
-}
+    }
+    .section-padding{
+        padding: 56px 0px;
+    }

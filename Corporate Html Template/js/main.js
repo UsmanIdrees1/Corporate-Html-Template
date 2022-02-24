@@ -1,4 +1,5 @@
 
+/******************************Slider Section Start********************/
 $(document).ready(function() {
  
     $("#owl-demo").owlCarousel({
@@ -19,6 +20,24 @@ $(document).ready(function() {
         itemsMobile : false
    
     });
+
+    /******************************Slider Section Start********************/
+
+    /******************************Fixed Header Section Start********************/
+
+    $(window).scroll(function(){
+var top=$(window).scrollTop();
+if(top>=60){
+    $("header").addClass('secondary-dark-blue-bg');
+    }
+    else{
+       if( $("header").addClass('secondary-dark-blue-bg')){
+        $("header").removeClass('secondary-dark-blue-bg');  
+       } 
+    }
+    });
+
+    /******************************Fixed Header Section End********************/
    
   });
-  document.getElementById("para").innerHTML="red";
+  
