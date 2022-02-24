@@ -5,12 +5,13 @@ $(document).ready(function() {
    
         navigation : true, // Show next and prev buttons
    
-        slideSpeed : 2500,
-        paginationSpeed : 2500,
+        slideSpeed : 300,
+        paginationSpeed : 500,
         loop:true,
         items : 1, 
         autoplay:true,
-        autoplayTimeout:2000,
+        autoplayTimeout:3500,
+        autoplay:250,
         autoplayHoverPause:true,
         itemsDesktop : false,
         itemsDesktopSmall : false,

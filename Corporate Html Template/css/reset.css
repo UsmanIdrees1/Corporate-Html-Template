@@ -44,6 +44,9 @@ background-color: #e74c3c;
 a:focus{
     outline: 0px;
 }
+a:hover{
+    text-decoration: none;
+}
 ul{
     list-style: none;
     margin-left: 235px;
