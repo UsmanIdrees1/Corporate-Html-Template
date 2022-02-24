@@ -1,0 +1,36 @@
+header{
+    color: #fff;
+    height: 112px;
+    
+   
+    line-height: 112px;
+}
+header a.logo{
+    float: left;
+}
+header nav.menu{
+    float: right;
+    font-weight: bold;
+
+}
+header nav ul li{
+    padding-left: 30px;
+    
+    
+}
+header nav ul li a{
+    color: #fff;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+   -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+header nav ul li a:hover, header nav ul li a:focus{
+    color: #e74c32;
+    text-decoration: none;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
