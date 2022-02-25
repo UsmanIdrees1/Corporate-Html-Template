@@ -21,15 +21,55 @@ $(document).ready(function() {
    
     });
 
+
+        /******************************Our Work Section Slider Start********************/
+
+        $("#portfolio-carousel").owlCarousel({
+   
+            nav : true, // Show next and prev buttons
+       dots:false,
+            slideSpeed : 300,
+            loop:true,
+            items : 4, 
+            autoplay:true,
+            autoplayTimeout:3500,
+            autoplay:250,
+            autoplayHoverPause:true,
+            itemsDesktop : false,
+            itemsDesktopSmall : false,
+            itemsTablet: false,
+            itemsMobile : false
+       
+        });
+
     /******************************Our Work Section Slider Start********************/
 
-    $(".owl-carousel").owlCarousel({
+    $("#team-carousel").owlCarousel({
    
         nav : true, // Show next and prev buttons
    dots:false,
         slideSpeed : 300,
         loop:true,
         items : 4, 
+        autoplay:true,
+        autoplayTimeout:3500,
+        autoplay:250,
+        autoplayHoverPause:true,
+        itemsDesktop : false,
+        itemsDesktopSmall : false,
+        itemsTablet: false,
+        itemsMobile : false
+   
+    });
+
+
+    $(".testimonial-carousel").owlCarousel({
+   
+        nav : true, // Show next and prev buttons
+       dots:false,
+        slideSpeed : 300,
+        loop:true,
+        items :1, 
         autoplay:true,
         autoplayTimeout:3500,
         autoplay:250,
