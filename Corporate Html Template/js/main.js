@@ -21,7 +21,25 @@ $(document).ready(function() {
    
     });
 
-    /******************************Slider Section Start********************/
+    /******************************Our Work Section Slider Start********************/
+
+    $(".owl-carousel").owlCarousel({
+   
+        nav : true, // Show next and prev buttons
+   dots:false,
+        slideSpeed : 300,
+        loop:true,
+        items : 4, 
+        autoplay:true,
+        autoplayTimeout:3500,
+        autoplay:250,
+        autoplayHoverPause:true,
+        itemsDesktop : false,
+        itemsDesktopSmall : false,
+        itemsTablet: false,
+        itemsMobile : false
+   
+    });
 
     /******************************Fixed Header Section Start********************/
 
@@ -31,7 +49,7 @@ if(top>=60){
     $("header").addClass('secondary-dark-blue-bg');
     }
     else{
-       if( $("header").addClass('secondary-dark-blue-bg')){
+       if( $("header").hasClass('secondary-dark-blue-bg')){
         $("header").removeClass('secondary-dark-blue-bg');  
        } 
     }
