@@ -25,24 +25,20 @@
 
     <!--------------------------header section Start--------------------------------->
 
+
     <header class="header-main">
         <div class="container">
             <div class="row">
-                <!--<a class="logo" href="#"><img src="img/logo.png" alt=""></a>-->
-                <nav class="menu" id="menu">
-                    <ul class="clearfix">
-                        <li class="logo" style="float: left;"><a href="#"><img src="img/logo.png" alt=""></a></li>
-                        <ul class="links">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Our Work</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-
-
+                <div class="col-sm-4"><a href="#"><img src="img/logo.png" alt=""></a></div>
+                <div class="col-sm-8">
+                    <ul style="float: right;" class="links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Our Work</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
-                </nav>
+                </div>
 
             </div>
 
@@ -352,56 +348,110 @@
 
     <Section class="testimonials section-padding center">
         <div class="testimonial-header">
-            <h1>Clients Testimonials</h1>
+            <h1 class="white">Clients Testimonials</h1>
             <p>It is a long Established fact that a reader will be distracted by the<br />readable content of a page
                 when looking at its layout</p>
         </div>
         <div class="owl-carousel owl-theme owl-loaded testimonial-carousel">
             <div class="item">
-            <img style="max-width: 263px; align-items: center;left: 50%;" src="img/team/member1.png">
-            <p class="name">John Doe</p>
-            <p class="position">Web Designer</p>
-            <blockquote>
-                The problem is using Lorem Ipsum is that it has more-or-less normal distributionof letters,as opposed to
-                using Contenthere,content here, making it look like readable English
-                Many desktop publishing packages and web page editors now use Lorem ipsum as there default model text
-                and a search for 'lorem ipsum' will uncover many websites still in there infancy
-            </blockquote>
+                <img src="img/team/member1.png">
+                <p class="name">John Doe</p>
+                <p class="position">Web Designer</p>
+                <blockquote>
+                    <i>
+                        The problem is using Lorem Ipsum is that it has more-or-less normal distributionof letters,as
+                        opposed to
+                        using Contenthere,content here, making it look like readable English
+                        Many desktop publishing packages and web page editors now use Lorem ipsum as there default model
+                        text.
+                    </i>
+                </blockquote>
+            </div>
+            <div class="item">
+                <img style="max-width: 263px;" src="img/team/member1.png">
+                <p class="name">John Doe</p>
+                <p class="position">Web Designer</p>
+                <blockquote>
+                    <i>
+                        The problem is using Lorem Ipsum is that it has more-or-less normal distributionof letters,as
+                        opposed to
+                        using Contenthere,content here, making it look like readable English
+                        Many desktop publishing packages and web page editors now use Lorem ipsum as there default model
+                        text.
+                    </i>
+                </blockquote>
+            </div>
+            <div class="item">
+                <img style="max-width: 263px;" src="img/team/member1.png">
+                <p class="name">John Doe</p>
+                <p class="position">Web Designer</p>
+                <blockquote>
+                    <i>
+                        The problem is using Lorem Ipsum is that it has more-or-less normal distributionof letters,as
+                        opposed to
+                        using Contenthere,content here, making it look like readable English
+                        Many desktop publishing packages and web page editors now use Lorem ipsum as there default model
+                        text.
+                    </i>
+                </blockquote>
+            </div>
         </div>
-        <div  class="item">
-            <img style="max-width: 263px;" src="img/team/member1.png">
-            <p class="name">John Doe</p>
-            <p class="position">Web Designer</p>
-            <blockquote>
-                The problem is using Lorem Ipsum is that it has more-or-less normal distributionof letters,as opposed to
-                using Contenthere,content here, making it look like readable English
-                Many desktop publishing packages and web page editors now use Lorem ipsum as there default model text
-                and a search for 'lorem ipsum' will uncover many websites still in there infancy
-            </blockquote>
+    </Section>
+
+    <!-------------------------------------------Testimonials Section End------------------------------------------>
+
+    <!-------------------------------------------Blog Section Start------------------------------------------>
+
+    <section class="section-padding blog">
+        <div class="blog-header center">
+            <h1>Recent Posts from Blog</h1>
+            <p>It is a long Established fact that a reader will be distracted by the<br />readable content of a page
+                when looking at its layout</p>
         </div>
-        <div class="item">
-            <img style="max-width: 263px;" src="img/team/member1.png">
-            <p class="name">John Doe</p>
-            <p class="position">Web Designer</p>
-            <blockquote>
-                The problem is using Lorem Ipsum is that it has more-or-less normal distributionof letters,as opposed to
-                using Contenthere,content here, making it look like readable English
-                Many desktop publishing packages and web page editors now use Lorem ipsum as there default model text
-                and a search for 'lorem ipsum' will uncover many websites still in there infancy
-            </blockquote>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/blog/post1.png" alt="post1" />
+                    <h3><a href="#" class="secondary-sky-blue"> Water Folowing</a></h3>
+                    <p class="post-description"><i>by</i><b><span class="primary"> John</span></b><i> 0n</i><b
+                            class="date"> 12 Dec 2015</b></p>
+                    <p class="post-content">The point of using Lorem ipsum is that it has more-or-less normal
+                        distribution of letters,as opposed to using
+                        'content here, content here',making it look like readable English.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/blog/post2.png" alt="post2" />
+                    <h3><a href="#" class="secondary-sky-blue"> Beautiful Wheather</a></h3>
+                    <p class="post-description"><i>by</i><b><span class="primary"> Alex</span></b><i> 0n</i><b
+                            class="date"> 12 Dec 2015</b></p>
+                    <p class="post-content">The point of using Lorem ipsum is that it has more-or-less normal
+                        distribution of letters,as opposed to using
+                        'content here, content here',making it look like readable English.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/blog/post3.png" alt="post3" />
+                    <h3><a href="#" class="secondary-sky-blue"> Beautiful Sky</a></h3>
+                    <p class="post-description"><i>by</i><b><span class="primary"> John</span></b><i> 0n</i><b
+                            class="date"> 12 Dec 2015</b></p>
+                    <p class="post-content">The point of using Lorem ipsum is that it has more-or-less normal
+                        distribution of letters,as opposed to using
+                        'content here, content here',making it look like readable English.
+                    </p>
+                </div>
+            </div>
         </div>
-        </div>
+    </section>
+    <!-------------------------------------------Blog Section End------------------------------------------>
+
+    <!-------------------------------------------JavaScript Content------------------------------------------>
 
 
-        <!-------------------------------------------Testimonials Section End------------------------------------------>
-
-        <!-------------------------------------------JavaScript Content------------------------------------------>
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="Corporate Html Template/js/bootstrap.min.js"></script>
-        <script src="Corporate Html Template/js/owl.carousel.min.js"></script>
-        <script src="Corporate Html Template/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Corporate Html Template/js/bootstrap.min.js"></script>
+    <script src="Corporate Html Template/js/owl.carousel.min.js"></script>
+    <script src="Corporate Html Template/js/main.js"></script>
 </body>
 
 </html>

@@ -21,8 +21,9 @@ $(document).ready(function() {
    
     });
 
+    /******************************Slider Section End********************/
 
-        /******************************Our Work Section Slider Start********************/
+        /******************************Portfolio slider section Start********************/
 
         $("#portfolio-carousel").owlCarousel({
    
@@ -42,7 +43,9 @@ $(document).ready(function() {
        
         });
 
-    /******************************Our Work Section Slider Start********************/
+          /******************************Portfolio slider section End********************/
+
+    /******************************Team Slider Section Start********************/
 
     $("#team-carousel").owlCarousel({
    
@@ -62,14 +65,18 @@ $(document).ready(function() {
    
     });
 
+     /******************************Team Slider Section End********************/
+
+      /******************************Testimonial Section Start********************/
 
     $(".testimonial-carousel").owlCarousel({
    
-        nav : true, // Show next and prev buttons
-       dots:false,
+        navigation : true, // Show next and prev buttons
+   
         slideSpeed : 300,
+        paginationSpeed : 500,
         loop:true,
-        items :1, 
+        items : 1, 
         autoplay:true,
         autoplayTimeout:3500,
         autoplay:250,
@@ -80,6 +87,9 @@ $(document).ready(function() {
         itemsMobile : false
    
     });
+
+
+     /******************************Testimonial Slider Section End********************/
 
     /******************************Fixed Header Section Start********************/
 
