@@ -90,7 +90,7 @@ padding-top: 150px;
     font-size: 32px;
     color: #555;
 }
-.services-header,.portfolio-header,.team-header,.testimonial-header,.blog-header{
+.services-header,.portfolio-header,.team-header,.testimonial-header,.blog-header,.contact-header{
     margin-bottom: 42px;
     text-align: center;
 }
@@ -323,3 +323,45 @@ blockquote::after{
 }
 
 /******************************Blog Section End********************/
+
+/******************************Contact Section Start********************/
+
+.contact{
+    background: url(img/contact/contactbg.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: #fff;
+}
+form{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+input:not([type=submit]),textarea{
+width: 100%;
+margin-bottom: 40PX;
+color: #777;
+padding-left: 20PX;
+box-shadow: 3PX 3PX 5PX rgba(0, 0, 0, 0.3) inset;
+border: none;
+}
+input:not([type=submit]){
+    height: 40PX;
+    line-height: 40PX;
+    
+}
+textarea{
+    padding-top: 10PX;
+    border: none;
+}
+#submit{
+padding: 10px 30px;
+color: #fff;
+background-color: #e74c32;
+border: none;
+font-weight: bold;
+}
+
+
+/******************************Contact Section End********************/
