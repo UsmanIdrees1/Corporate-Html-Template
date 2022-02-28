@@ -31,15 +31,38 @@ $(document).ready(function() {
        dots:false,
             slideSpeed : 300,
             loop:true,
-            items : 4, 
+            items : 4,
+            max_items:4, 
+            min_items:1,
             autoplay:true,
             autoplayTimeout:3500,
             autoplay:250,
             autoplayHoverPause:true,
-            itemsDesktop : false,
-            itemsDesktopSmall : false,
-            itemsTablet: false,
-            itemsMobile : false
+            responsiveClass:true,
+            responsive:{
+                    0:{
+                        items:1,
+                        nav:true,
+                    },
+                    500:{
+                        items:2,
+                        nav:true,
+                    },
+                
+                880:{
+                    items:3,
+                    nav:true
+                },
+                1000:{
+                    items:4,
+                    nav:true
+                }
+            // 1203:{
+            //     items:4,
+            //     nav:true,
+            //     loop:false
+            // }
+        }
        
         });
 
@@ -58,10 +81,30 @@ $(document).ready(function() {
         autoplayTimeout:3500,
         autoplay:250,
         autoplayHoverPause:true,
-        itemsDesktop : false,
-        itemsDesktopSmall : false,
-        itemsTablet: false,
-        itemsMobile : false
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true,
+            },
+            500:{
+                items:2,
+                nav:true,
+            },
+        
+        880:{
+            items:3,
+            nav:true
+        },
+        1000:{
+            items:4,
+            nav:true
+        }
+    }
+        // itemsDesktop : false,
+        // itemsDesktopSmall : false,
+        // itemsTablet: false,
+        // itemsMobile : false
    
     });
 

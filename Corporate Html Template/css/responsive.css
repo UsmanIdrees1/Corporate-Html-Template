@@ -17,7 +17,7 @@
     }
     .slicknav_menu{
         display: inline-block;
-     position: fixed;
+         position: fixed;
         background-color: rgba(0, 0, 0, 0);
         z-index: 1000;
         margin-top: -112px;
@@ -54,7 +54,142 @@
     /********************************Header Responsive Code End****************************************/
 
     /********************************Slider Responsive Code Start****************************************/
+    #owl-demo,#owl-demo div{
+        height: 450px !important;
+        width:100%;
+         }
+         #owl-demo div h1.slider-heading{
+         margin-bottom: 30px;
+         margin-top: 0px;
+         padding: 0px;
+     
+     }
+     .img1{
+         padding-top: 50px !important;
+     }
+     
+    
+       /********************************portfolio Responsive Code Start****************************************/
+       .portfolio{
+           background: none;
+           background-color: #eca535;
+       }
+       
+       .portfolio .inner-content .overlay-content h3{
+       font-size: 14px;
+    }
+    /* .portfolio .inner-content{
+        width: 200px;
+        height: 180px;
+        } */
+        /* .portfolio .inner-content .overlay-content{
+            margin-right: 0px;
+            margin-left: 0px;
+        } */
+/*******team section  */
 
+        .team .inner-content .overlay-content p.name{
+            font-size: 14px;
+        }
+        .team .inner-content{
+            width: 200px;
+            height: 180px;
+            }
+            .team .inner-content .overlay-content{
+                margin-right: 0px;
+                margin-left: 0px;
+            }
+            .team .inner-content .overlay-content p.description{
+                display: none;
+                }
 
-    /********************************Slider Responsive Code End****************************************/
+                /* testimonial section */
+                /* .testimonial-carousel{
+                    background: none;
+                    background-color: #0d1722;
+                } */
+
+                /* blog section */
+                .blog div.col-md-4{
+                    text-align: center;
+                }
+                .blog div img{
+                    margin: 0 auto;
+                }
+                /* contact section */
+                form.contact-form{
+                    width: 80% !important;
+                }
+                .contact{
+                    background: none;
+                    background-color: #36767a;
+                }
+               
+                /* footer */
+                .footer{
+                    text-align: center;
+                }
+                blockquote{
+                    text-align: center;
+                    width: 80%;
+                    
+                }
+}
+@media screen and (max-width: 800px){
+.portfolio .inner-content .overlay-content h3{
+    font-size: 12px;
+ }
+ /* .portfolio .inner-content{
+     width: 180px;
+     height: 150px;
+     } */
+    
+     .portfolio .inner-content .overlay-content p{
+        font-size: 12px;
+    }
+    .team .inner-content .overlay-content p.name{
+        font-size: 12px;
+     }
+     .team .inner-content{
+         width: 180px;
+         height: 150px;
+         }
+         .team .inner-content .overlay-content{
+             font-size: 12px;
+             margin-right: 0px;
+         }
+         .team .inner-content .overlay-content p.description{
+            font-size: 12px;
+        }
+
+        /* testimonial section */
+        .testimonial-carousel .item{
+            margin: 0 100px;
+        }
+    }
+@media screen and (max-width: 550px){
+    #owl-demo,#owl-demo div{
+       height: 350px !important;
+        }
+        #owl-demo div h1.slider-heading{
+        margin-bottom: 30px;
+        margin-top:30px !important;
+    
+    }
+    form.contact-form{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 420px){
+    #owl-demo div a{
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .slider div h1.slider-heading{
+        margin-bottom: 30px;
+      font-size: 30px;
+    }
+     /********************************Slider Responsive Code End****************************************/
 }
