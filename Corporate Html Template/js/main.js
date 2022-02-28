@@ -106,6 +106,9 @@ if(top>=60){
     });
 
     /******************************Fixed Header Section End********************/
+    $('.links').slicknav({
+        label:'',
+    })
    
   });
   
