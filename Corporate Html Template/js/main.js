@@ -145,6 +145,7 @@ if(top>=60){
     $('.links').slicknav({
         label:'',
     })
+    $('#main').stellar();
    
   });
   
