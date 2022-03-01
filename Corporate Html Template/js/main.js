@@ -57,11 +57,7 @@ $(document).ready(function() {
                     items:4,
                     nav:true
                 }
-            // 1203:{
-            //     items:4,
-            //     nav:true,
-            //     loop:false
-            // }
+           
         }
        
         });
@@ -101,10 +97,7 @@ $(document).ready(function() {
             nav:true
         }
     }
-        // itemsDesktop : false,
-        // itemsDesktopSmall : false,
-        // itemsTablet: false,
-        // itemsMobile : false
+        
    
     });
 

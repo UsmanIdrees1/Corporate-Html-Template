@@ -78,14 +78,7 @@
        .portfolio .inner-content .overlay-content h3{
        font-size: 14px;
     }
-    /* .portfolio .inner-content{
-        width: 200px;
-        height: 180px;
-        } */
-        /* .portfolio .inner-content .overlay-content{
-            margin-right: 0px;
-            margin-left: 0px;
-        } */
+   
 /*******team section  */
 
         .team .inner-content .overlay-content p.name{
@@ -103,12 +96,7 @@
                 display: none;
                 }
 
-                /* testimonial section */
-                /* .testimonial-carousel{
-                    background: none;
-                    background-color: #0d1722;
-                } */
-
+            
                 /* blog section */
                 .blog div.col-md-4{
                     text-align: center;
@@ -139,10 +127,7 @@
 .portfolio .inner-content .overlay-content h3{
     font-size: 12px;
  }
- /* .portfolio .inner-content{
-     width: 180px;
-     height: 150px;
-     } */
+
     
      .portfolio .inner-content .overlay-content p{
         font-size: 12px;
