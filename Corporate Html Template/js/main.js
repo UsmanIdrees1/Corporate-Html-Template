@@ -23,6 +23,18 @@ $(document).ready(function() {
 
     /******************************Slider Section End********************/
 
+    $('.animation').each(function(){
+        var waypoint = new Waypoint({
+            element: this,
+            handler: function(direction) {
+              var animation=$(this.element).attr('data-animation');
+              $(this.element).css('opacity','1');
+              $(this.element).addClass("animate__animated " + animation);
+            },
+            offset: '75%' 
+          })
+    });
+
         /******************************Portfolio slider section Start********************/
 
         $("#portfolio-carousel").owlCarousel({
@@ -146,6 +158,9 @@ if(top>=60){
         label:'',
     })
     $('#main').stellar();
+
+   
+    
    
   });
   
