@@ -201,6 +201,10 @@ button.owl-prev span,button.owl-next span {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%; */
    }
+   .owl-theme .owl-nav{
+       max-width: 73vw;
+       text-align: center;
+   }
 
 button.owl-prev span:hover,button.owl-next span:hover{
     background-color: #e74c32;
@@ -437,5 +441,7 @@ footer p span.primary{
 .copyright p{
     margin: 0 0 0 0;
 }
+
+
 
 /******************************Footer Section End********************/

@@ -8,6 +8,13 @@ body{
     font-weight: 400;
     color: #777;
 }
+.pace-running .entire-content{
+    opacity: 0;
+}
+.pace-done .entire-content{
+    opacity: 1;
+    
+}
 h1{
     font-size: 36px;
     font-weight: bold;
