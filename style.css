@@ -78,7 +78,9 @@ border-radius: 5px;
     background-size: 100% 100%;
 padding-top: 50px;
 }
-
+.owl-dots {
+    max-height: 40px;
+}
 /******************************Slider Section End********************/
 
 /******************************Services Section Start********************/
